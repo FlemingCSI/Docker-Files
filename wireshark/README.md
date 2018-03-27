@@ -7,7 +7,7 @@ docker run -it --rm --network=host \
                     --cap-add net_raw \
                     --cap-add net_admin \
                     --name=wireshark \
-                    jaredharringtongibbs/wireshark-rdp
+                    flemingcsi/wireshark-rdp
 ```
 
 When connecting via RDP chose:

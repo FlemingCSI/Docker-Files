@@ -36,4 +36,4 @@ docker run --name=bigchaindb \
   bigchaindb/bigchaindb start
 
 #start the bigchain client
-docker run -i -t --rm --name=client --net bigchainnet jaredharringtongibbs/bigchaindb-client:latest
+docker run -i -t --rm --name=client --net bigchainnet flemingcsi/bigchaindb-client:latest
